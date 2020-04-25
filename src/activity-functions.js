@@ -4,13 +4,13 @@ export function navbar(location) {
 }
 
 export function dashboard(location) {
-  return "" || "/";
+  return location.pathname === "" || location.pathname === "/";
 }
 
 export function list(location) {
-  return "/list";
+  return location.pathname.startsWith("/list");
 }
 
 export function detail(location) {
-  return "/detail";
+  return location.pathname.startsWith("/detail");
 }
