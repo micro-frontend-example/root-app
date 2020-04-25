@@ -8,6 +8,6 @@ Since the idea is to have each logical module into a separate micro frontend app
 | ----------- | ----------------- | ------------- | ------------------- | --------- |
 | App Root    | @mf-app           | Root App      | Root App            | n/a       |
 | Navbar      | @mf-app/navbar    | common module | Global Navigation   | React     |
-| Dashboard   | @mf-app/dashboard | page module   | Dashboard page      | Angular   |
+| Dashboard   | @mf-app/dashboard | page module   | Dashboard page      | React     |
 | List        | @mf-app/list      | page module   | Product List page   | Angular   |
 | Detail      | @mf-app/detail    | page module   | Product Detail page | Vue       |
