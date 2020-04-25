@@ -2,7 +2,7 @@
 
 ## App Architecture Idea
 
-Since the idea is to have each logical module a separate micro frontend app, here is my intial thought on it:
+Since the idea is to have each logical module into a separate micro frontend app, here is my intial thought on it:
 
 | Module Name | Registered as | Type | Description |
 |-------------|---------------|------|-------------|
